@@ -1,0 +1,36 @@
+﻿<Window x:Class="Student_Progress_Tracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Student_Progress_Tracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <DataGrid x:Name="dgt" HorizontalAlignment="Left" Height="155" Margin="113,263,0,0" VerticalAlignment="Top" Width="650" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ComboBox x:Name="Subject" HorizontalAlignment="Left" Height="19" Margin="142,67,0,0" VerticalAlignment="Top" Width="108" SelectionChanged="Subject_SelectionChanged_1"/>
+        <ComboBox x:Name="Grade"  HorizontalAlignment="Left" Height="19" Margin="142,100,0,0" VerticalAlignment="Top" Width="108" SelectionChanged="Grade_SelectionChanged"/>
+        <Label Content="Subject" HorizontalAlignment="Left" Height="28" Margin="42,66,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Grade" HorizontalAlignment="Left" Height="28" Margin="42,96,0,0" VerticalAlignment="Top" Width="88"/>
+        <Button x:Name="refresh" Content="Refresh" HorizontalAlignment="Left" Height="20" Background="DarkGreen" Foreground="White" Margin="142,155,0,0" VerticalAlignment="Top" Width="80" Click="refresh_Click"/>
+        <Label Content="Student Progress Tracker" HorizontalAlignment="Left" Height="28" Margin="245,5,0,0" VerticalAlignment="Top" Width="140"/>
+        <GroupBox HorizontalAlignment="Left" Height="153" Header="Searching&#xA;" Margin="10,33,0,0" VerticalAlignment="Top" Width="265"/>
+        <Button x:Name="AddBtn" Background="DarkGreen" Foreground="White"  Content="Add" HorizontalAlignment="Left" Height="20" Margin="368,203,0,0" VerticalAlignment="Top" Width="80" Click="AddBtn_Click"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="22" Margin="386,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txt_grade" HorizontalAlignment="Left" Height="22" Margin="386,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txt_subject" HorizontalAlignment="Left" Height="22" Margin="671,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txt_marks" HorizontalAlignment="Left" Height="22" Margin="671,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txt_percent" HorizontalAlignment="Left" Height="22" Margin="671,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Name" HorizontalAlignment="Left" Height="28" Margin="320,107,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Grade" HorizontalAlignment="Left" Height="28" Margin="320,141,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Subject" HorizontalAlignment="Left" Height="28" Margin="529,74,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Marks" HorizontalAlignment="Left" Height="28" Margin="529,110,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Attendance Percentage" HorizontalAlignment="Left" Height="28" Margin="529,145,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="update_btn" Background="DarkGreen" Foreground="White"  Content="Update" HorizontalAlignment="Left" Height="20" Margin="468,203,0,0" VerticalAlignment="Top" Width="80" Click="update_btn_Click" />
+        <Button x:Name="delete_btn" Background="DarkOrange" Foreground="White"  Content="Delete" HorizontalAlignment="Left" Height="20" Margin="573,203,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="1.714,1.19" Click="delete_btn_Click"/>
+        <TextBox x:Name="txt_id" HorizontalAlignment="Left" Height="22" Margin="386,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="28" Margin="320,70,0,0" VerticalAlignment="Top" Width="44"/>
+        <GroupBox HorizontalAlignment="Left" Height="202" Header="Student Record" Margin="294,43,0,0" VerticalAlignment="Top" Width="483"/>
+
+    </Grid>
+</Window>

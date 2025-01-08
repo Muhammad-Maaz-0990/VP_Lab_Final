@@ -1,0 +1,16 @@
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\bin\Debug\Student_Progress_Tracker.exe.config
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\bin\Debug\Student_Progress_Tracker.exe
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\bin\Debug\Student_Progress_Tracker.pdb
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.csproj.AssemblyReference.cache
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.csproj.SuggestedBindingRedirects.cache
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\MainWindow.g.cs
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\App.g.cs
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker_MarkupCompile.cache
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker_MarkupCompile.lref
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\MainWindow.baml
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.g.resources
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.Properties.Resources.resources
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.csproj.GenerateResource.cache
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.csproj.CoreCompileInputs.cache
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.exe
+C:\Users\233553\Desktop\Student_Progress_Tracker\Student_Progress_Tracker\obj\Debug\Student_Progress_Tracker.pdb
